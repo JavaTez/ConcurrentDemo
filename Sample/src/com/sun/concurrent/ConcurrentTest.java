@@ -14,8 +14,8 @@ public class ConcurrentTest {
 		courses.add(".net");
 		courses.add("c++");
 		courses.add("c");
-		
-		
+		courses.add("Python");
+		courses.add("Pega");
 		
 		MyThread mythread = new MyThread(courses);
 		new Thread(mythread).start();//new thread started here to execute My Thread run()
