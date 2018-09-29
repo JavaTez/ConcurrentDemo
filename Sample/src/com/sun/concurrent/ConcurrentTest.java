@@ -28,5 +28,9 @@ public class ConcurrentTest {
 				Thread.currentThread().sleep(1000);//making main thread to sleep for 1 sec
 			}
 	}
+	
+	public void sayHello(){
+		System.out.println("Hello Friends. Welcome to Git Session.");
+	}
 
 }
